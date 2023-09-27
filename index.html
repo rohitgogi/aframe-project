@@ -8,20 +8,17 @@
 <body>
     <a-scene background="color: black">
     <!-- Define the Rubik's cube with solid materials -->
-    <a-box position="-1.05 -1.05 -5" material="color: red; opacity: 1" depth="3" height="1" width="1"></a-box>
-    <a-box position="0 -1.05 -5" material="color: green; opacity: 1" depth="3" height="1" width="1"></a-box>
-    <a-box position="1.05 -1.05 -5" material="color: blue; opacity: 1" depth="3" height="1" width="1"></a-box>
-
-    <a-box position="-1.05 0 -5" material="color: yellow; opacity: 1" depth="3" height="1" width="1"></a-box>
-    <a-box position="0 0 -5" material="color: white; opacity: 1" depth="3" height="1" width="1"></a-box>
-    <a-box position="1.05 0 -5" material="color: orange; opacity: 1" depth="3" height:"1"; width:"1"></a-box>
-
-    <a-box position="-1.05 1.05 -5" material="color: pink; opacity: 1" depth="3" height:"1"; width:"1"></a-box>
-    <a-box position="0 1.05 -5" material="color: purple; opacity: 1" depth="3" height:"1"; width:"1"></a-box>
-    <a-box position="1.05 1.05 -5" material="color: cyan; opacity: 1" depth="3" height:"1"; width:"1"></a-box>
-
+  
+    <
+    <a-box position="-0.97 .85 -5" material="color: white; opacity: 1" depth="3" height=".8" width=".75"></a-box>
+    <a-box position="-0.97 -0.17 -5" material="color: white; opacity: 1" depth="3" height="1" width=".75"></a-box>
+    <a-box position=".5 .28 -5" material="color: red; opacity: 1" depth="3" height="1.9" width="2.1"></a-box>
+    <a-box position="-0.97 -1.15 -5" material="color: blue; opacity: 1" depth="3" height=".8" width=".75"></a-box>
+    <a-box position=".36 -1.15 -5" material="color: white; opacity: 1" depth="3" height=".8" width="1.8"></a-box>
+    <a-box position=" 1.44 -.95 -5" material="color: white; opacity: 1" depth="3" height=".37" width=".3"></a-box>
+    <a-box position=" 1.44 -1.37 -5" material="color: yellow; opacity: 1" depth="3" height=".37" width=".3"></a-box>
     <!-- Add a camera so you can move around -->
-    <a-entity camera look-controls wasd-controls></a-entity>
+    <a-entity camera look-controls wasd-controls="fly: true" ></a-entity>
 </a-scene>
 
     
